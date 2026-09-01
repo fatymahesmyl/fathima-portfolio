@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Me — Fathima M</title>
+<meta name="description" content="Contact Fathima M — email, phone and location.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<nav class="tabbar" aria-label="Site navigation">
+  <div class="wrap">
+    <span class="brand">fathima@portfolio ~</span>
+    <ul class="tabs">
+      <li><a href="index.html"><span class="dot"></span>index.html</a></li>
+      <li><a href="about.html"><span class="dot"></span>about.html</a></li>
+      <li><a href="achievements.html"><span class="dot"></span>achievements.html</a></li>
+      <li><a href="gallery.html"><span class="dot"></span>gallery.html</a></li>
+      <li class="active"><a href="contact.html" aria-current="page"><span class="dot"></span>contact.html</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main id="main">
+  <div class="wrap">
+    <section class="hero" style="padding-bottom:0;">
+      <span class="label">// contact</span>
+      <h1>Contact Me</h1>
+      <p class="lede" style="margin-bottom:0;">Feel free to reach out for internships, collaborations,
+        or just to say hello.</p>
+    </section>
+
+    <section>
+      <div class="contact-grid">
+        <div>
+          <h2>Details</h2>
+          <ul class="contact-list">
+            <li>
+              <span class="k">Email</span>
+              <span class="v"><a class="link-underline" href="mailto:fathima.esmayil@gmail.com">fathima.esmayil@gmail.com</a></span>
+            </li>
+            <li>
+              <span class="k">Phone</span>
+              <span class="v"><a class="link-underline" href="tel:+918848307194">+91 88483 07194</a></span>
+            </li>
+            <li>
+              <span class="k">Location</span>
+              <span class="v">Payyannur, Kerala, India</span>
+            </li>
+          </ul>
+
+          <h2 style="margin-top:44px;">Location</h2>
+          <div class="map-embed">
+            <iframe
+              title="Map of Payyannur, Kerala"
+              src="https://www.google.com/maps?q=Payyannur,+Kerala&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+
+        <div>
+          <h2>Send a message</h2>
+          <p class="muted" style="margin-bottom:20px; font-size:14px;">This form doesn't send email on
+            its own yet — see the setup guide for a one-step way to make it work with Formspree.</p>
+          <form action="#" method="POST">
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn solid">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>&copy; 2026 Fathima M. Built with HTML5 &amp; CSS.</p>
+    <div class="socials">
+      <a href="mailto:fathima.esmayil@gmail.com">Email</a>
+      <a href="tel:+918848307194">Phone</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
